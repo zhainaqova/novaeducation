@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<androidx.cardview.widget.CardView
+    android:padding="12dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="54dp"
+    android:layout_margin="5dp">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/req_tab">
+
+            <TextView
+                android:id="@+id/hint1"
+                style="@style/Text"
+                android:drawablePadding="15dp"
+                android:text="Аттестат"
+                app:drawableLeftCompat="@drawable/text1" />
+
+            <TextView
+                android:id="@+id/hint2"
+                style="@style/Text"
+                android:layout_below="@+id/hint1"
+                android:drawableLeft="@drawable/text2"
+                android:drawablePadding="15dp"
+                android:text="IELTS UKVI 5.5" />
+
+            <TextView
+                android:id="@+id/hint3"
+                style="@style/Text"
+                android:layout_below="@+id/hint2"
+                android:drawableLeft="@drawable/text3"
+                android:drawablePadding="15dp"
+                android:text="Мотивационное письмо" />
+
+            <TextView
+                android:id="@+id/hint4"
+                style="@style/Text"
+                android:layout_below="@+id/hint3"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="18dp"
+                android:layout_marginEnd="0dp"
+                android:drawableLeft="@drawable/text4"
+                android:drawablePadding="15dp"
+                android:text="Копия загранпаспорта" />
+
+            <TextView
+                android:id="@+id/hint5"
+                style="@style/Text"
+                android:layout_below="@+id/hint4"
+                android:drawableLeft="@drawable/text5"
+                android:drawablePadding="15dp"
+                android:text="Заполненная вступительная онлайн-формате" />
+
+            <TextView
+                android:id="@+id/hint6"
+                style="@style/Text"
+                android:layout_below="@+id/hint5"
+                android:drawableLeft="@drawable/text6"
+                android:drawablePadding="15dp"
+                android:text="Транскрипт оценок" />
+
+            <TextView
+                android:id="@+id/hint7"
+                style="@style/Text"
+                android:layout_below="@+id/hint6"
+                android:drawableLeft="@drawable/text7"
+                android:drawablePadding="15dp"
+                android:text="Творческое портфолио" />
+        </RelativeLayout>
+    </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+
+</RelativeLayout>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThirdActivity">
+
+    <ImageView
+        android:id="@+id/header_background"
+        android:layout_width="412dp"
+        android:layout_height="292dp"
+        android:transitionName="background_image_transition"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/header_background"
+        tools:targetApi="LOLLIPOP"/>
+
+    <ImageView
+        android:id="@+id/down_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginRight="34dp"
+        app:layout_constraintEnd_toEndOf="@id/header_background"
+        app:layout_constraintTop_toTopOf="@id/header_background"
+        android:src="@drawable/ic_up_arrow"/>
+
+    <ScrollView
+        android:id="@+id/third_scroll_view"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:scrollbars="none"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/header_background"
+        android:layout_marginLeft="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/third_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto"
+                android:text="Как развивать soft skills в вузе"
+                android:textColor="@color/black"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/about"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:fontFamily="@font/roboto"
+                android:text="По мнению работодателей, «гибкие» навыки важны не меньше, чем «жесткие» профессиональные. Поэтому развивать их пора уже в студенческие годы. Что именно нужно делать? Об этом — в нашей статье."
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/about_text"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:alpha="0.5"
+                android:fontFamily="@font/roboto"
+                android:text="Мы привыкли думать, что главная цель обучения в университете — получить базовые навыки по своей специальности. По-английски их называют hard skills. В противоположность им существуют другие — «гибкие» навыки, или soft skills. Они больше связаны с личностью человека, его подходом к работе и окружающим, чем с конкретной областью знаний. Это например:
+Навыки коммуникации;
+Умение распределять бюджет;
+Тайм-менеджмент;
+Критическое мышление;
+Умение воспринимать критику.
+Согласно исследованию американской компании Talbots, 97% опрошенных работодателей ценят гибкие навыки не меньше, чем основные профессиональные. Поэтому начать развивать их стоит еще в университете. Именно они выделят вас из всех остальных выпускников, а значит шансы получить высокооплачиваемую работу возрастут. Позднее они помогут вам продвинуться по карьерной лестнице: ведь на руководящих должностях именно soft skills становятся основными. "
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/venue_type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/roboto"
+                android:text="Навыки коммуникации"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/venue_type_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:alpha="0.5"
+                android:fontFamily="@font/roboto"
+                android:text="Развитые коммуникативные способности означают, что человек может налаживать отношения с окружающими и сотрудничать. Благодаря этому повышается эффективность работы и снижается количество стресса. Особенно важно уметь находить общий язык с людьми, у которых другой опыт и жизненные ценности. В крупных международных компаниях вы будете сталкиваться с ними постоянно."
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/type_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/roboto"
+                android:text="Распределение бюджета"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/type_view_text"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:alpha="0.5"
+                android:fontFamily="@font/roboto"
+                android:text="Чтобы научиться контролировать бюджет, достаточно просто съехать от родителей. Так вы будете сами оплачивать коммунальные счета, планировать траты на еду, транспорт, одежду и развлечения. Если же вы станете участвовать в студенческих организациях и устраивать мероприятия, то вам наверняка придется распределять более крупные бюджеты. Эти навыки пригодятся, даже если вы не будете напрямую работать с деньгами в компании. По ним работодатель поймет, что вы ответственный человек, а значит, вам можно доверять."
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

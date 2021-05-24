@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+ xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+        <androidx.cardview.widget.CardView
+            android:layout_margin="3dp"
+            android:padding="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="7dp">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <RelativeLayout
+                        android:background="@drawable/adv_tab"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:id="@+id/text1"
+                            android:text="• Входит в ТОП 10 университетов Великобритании для иностранных студентов."
+                            style="@style/TextAppearance"/>
+                        <TextView
+                            android:id="@+id/text2"
+                            android:layout_below="@+id/text1"
+                            style="@style/TextAppearance"
+                            android:text="• Кампус университета находится в Лондоне который входит в тройку лучших студенческих городов мира."/>
+                        <TextView
+                            android:id="@+id/text3"
+                            android:layout_below="@id/text2"
+                            style="@style/TextAppearance"
+                            android:text="• Входит в ТОП 10 высших учебных заведений страны по трудоустройству выпускников."/>
+                        <TextView
+                            android:id="@+id/text4"
+                            android:layout_below="@id/text3"
+                            style="@style/TextAppearance"
+                            android:text="• Факультет бизнеса Университета входит в топ 5 лучших заведений Великобритании и в ТОП 40 по миру."/>
+                        <TextView
+                           android:id="@+id/text5"
+                            android:layout_below="@id/text4"
+                            style="@style/TextAppearance"
+                            android:text="• Крупный многопрофильный университет."/>
+                        <TextView
+                            android:id="@+id/text6"
+                            android:layout_below="@id/text5"
+                            style="@style/TextAppearance"
+                            android:text="• Служба развития карьеры и профессионального образования, отмеченная многими наградами."/>
+                        <TextView
+                            android:id="@+id/text7"
+                            android:layout_below="@id/text6"
+                            style="@style/TextAppearance"
+                            android:text="• 18-место в национальном рейтинге вузов Guardian University Guide 2017 года."/>
+                        <TextView
+                           android:id="@+id/text8"
+                            android:layout_below="@id/text7"
+                            style="@style/TextAppearance"
+                            android:text="• 1-е местов Лондоне и 9-ое в Англии по программам бизнеса,менеджмента и маркетинга по итогам Guardian University Guide 2017 года. "/>
+                        <TextView
+                          android:id="@+id/text9"
+                            android:layout_below="@+id/text8"
+                            style="@style/TextAppearance"
+                            android:text="• Известные выспускники: Махатма Ганди, Джавахарлал Неру,Маргарет Тэтчер и Тони Блэр."/>
+                    </RelativeLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+</ScrollView>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:paddingLeft="30dp"
+            android:paddingTop="50dp"
+            android:text="Almaty - "
+            style="@style/AboutUs"
+            android:drawableLeft="@drawable/elipse"/>
+        <TextView
+            android:text="мкр Мамыр 4, 195"
+            style="@style/BlueText"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:paddingLeft="30dp"
+            android:text="Nur-Sultan - "
+            style="@style/AboutUs"
+            android:drawableLeft="@drawable/elipse"/>
+        <TextView
+            android:text="Кенесары 69, офис 17"
+            style="@style/BlueText"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:paddingLeft="30dp"
+            android:text="Atyrau - "
+            style="@style/AboutUs"
+            android:drawableLeft="@drawable/elipse"/>
+        <TextView
+            android:text="Бергалиева 75"
+            style="@style/BlueText"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:paddingLeft="30dp"
+            android:text="Shymkent - "
+            style="@style/AboutUs"
+            android:drawableLeft="@drawable/elipse"/>
+        <TextView
+            android:text="Казбек би 57"
+            style="@style/BlueText"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:paddingLeft="30dp"
+            android:text="Varshava - "
+            style="@style/AboutUs"
+            android:drawableLeft="@drawable/elipse1"/>
+        <TextView
+            android:text="Bukowinska 22/104, 02 - 703
+ Warsaw"
+            style="@style/BlueText"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:paddingLeft="30dp"
+            android:text="Berlin - "
+            style="@style/AboutUs"
+            android:drawableLeft="@drawable/elipse1"/>
+        <TextView
+            android:text="Britzer Damn 201,12347 Berlin"
+            style="@style/BlueText"/>
+    </LinearLayout>
+</LinearLayout>
